@@ -30,7 +30,7 @@ print('Justin pays ${} '.format(justins_rent))
 print('Matt pays ${} '.format(matts_rent))
 print('Drew pays ${} '.format(drews_rent))
 
-#Verzion = vtext.net, other carriers such as tmobile are tmomail.net
-server.sendmail( 'subj', 'yournumber@vtext.net', 'You pay ${} for rent this month'.format(justins_rent) )
+#Verzion = vtext.com, other carriers such as tmobile are tmomail.net
+server.sendmail( 'subj', 'yournumber@vtext.com', 'You pay ${} for rent this month'.format(justins_rent) )
 server.sendmail( 'subj', 'yournumber@vtext.net', 'You pay ${} for rent this month'.format(matts_rent) )
 server.sendmail( 'subj', 'yournumber@vtext.net', 'You pay ${} for rent this month'.format(drews_rent) )
